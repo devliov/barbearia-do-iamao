@@ -32,7 +32,7 @@ export const HeaderContainer = styled.header`
     display: flex;
     gap: 1rem;
     width: 50%;
-    justify-content: space-between;
+    justify-content: space-around;
 
     @media (max-width: 720px) {
       justify-content: center;
@@ -43,6 +43,7 @@ export const HeaderContainer = styled.header`
       width: 6rem;
       height: 3rem;
       margin-top: 2rem;
+      gap: 5px;
 
       display: flex;
       justify-content: center;

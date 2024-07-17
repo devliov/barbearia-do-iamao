@@ -2,7 +2,8 @@ import { CurrencyDollar, Scissors, UserCircle } from "phosphor-react";
 import { HeaderContainer } from "./styles";
 import { ReactNode } from "react";
 
-import Logo from "../../assets/Barbearia do Irmão(2).gif";
+import Logo from "../../assets/Barbearia do Irmão.jpg";
+import ScrollToTopButton from "../Button-scroll";
 
 type MenuHeader = {
   id: number;
@@ -14,25 +15,25 @@ const menu: MenuHeader[] = [
   {
     id: 1,
     name: "Profissionais",
-    link: "#profile",
+    link: "#perfil",
     icon() {
-      return <UserCircle size={26} weight="bold" />;
+      return <UserCircle size={22} weight="bold" />;
     },
   },
   {
     id: 2,
     name: "Trabalhos",
-    link: "#works",
+    link: "#trabalhos",
     icon() {
-      return <Scissors size={24} weight="bold" />;
+      return <Scissors size={20} weight="bold" />;
     },
   },
   {
     id: 3,
     name: "Preços",
-    link: "#prices",
+    link: "#preços",
     icon() {
-      return <CurrencyDollar size={24} weight="bold" />;
+      return <CurrencyDollar size={20} weight="bold" />;
     },
   },
 ];
@@ -41,7 +42,7 @@ export function Header() {
   return (
     <HeaderContainer>
       <div>
-        <a href="#profile">
+        <a href="#perfil">
           <img src={Logo} alt="" />
         </a>
       </div>
@@ -53,6 +54,7 @@ export function Header() {
           </a>
         ))}
       </nav>
+      <ScrollToTopButton />
     </HeaderContainer>
   );
 }
