@@ -14,7 +14,7 @@ type MenuHeader = {
 const menu: MenuHeader[] = [
   {
     id: 1,
-    name: "Profissionais",
+    name: "Perfis",
     link: "#perfil",
     icon() {
       return <UserCircle size={22} weight="bold" />;
