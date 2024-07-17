@@ -3,7 +3,7 @@ import { skillsItem } from "./data";
 
 export function Skills() {
   return (
-    <SkillContainer id="prices">
+    <SkillContainer id="preços">
       <h2>Tabelas de Preços</h2>
       {skillsItem.map((skill) => (
         <SkillBox key={skill.id}>
