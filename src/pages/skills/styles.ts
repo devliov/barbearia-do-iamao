@@ -29,6 +29,7 @@ export const SkillBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: auto;
   width: 100%;
   min-height: 2rem;
@@ -49,8 +50,11 @@ export const SkillBox = styled.div`
       )
       border-box;
 
+  div {
+    width: 200px;
+  }
+
   h3 {
-    text-align: left;
     color: ${(props) => props.theme["gray-100"]};
   }
   p {

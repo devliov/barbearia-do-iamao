@@ -77,5 +77,6 @@ export const ImageContainer = styled.div`
     margin: 5px solid #000;
     width: 150px;
     height: 225px;
+    cursor: pointer;
   }
 `;
