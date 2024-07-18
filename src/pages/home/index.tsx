@@ -7,7 +7,7 @@ import {
 import MyPhoto from "../../assets/perfil.png";
 import Eduardo from "../../assets/eduardo-removebg-preview.png";
 import Marcones from "../../assets/marcones-removebg-preview.png";
-import Irmão from "../../assets/Imao-removebg-preview.png";
+import Irmão from "../../assets/irmao-oficial.png";
 
 import { MapPin, WhatsappLogo } from "phosphor-react";
 import { Projects } from "../projects";
