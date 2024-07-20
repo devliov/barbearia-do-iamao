@@ -461,7 +461,7 @@ body,input,button,a{
   @media (max-width: 720px) {
     font-size: 8px;
   }
-`,iE=[{id:1,name:"Corte",price:30},{id:2,name:"Barba",price:25},{id:3,name:"Cabelo + Barba",price:50},{id:4,name:"Sobrancelha",price:10},{id:5,name:"Pezinho",price:15}];function lE(){return $.jsxs(nE,{id:"preços",children:[$.jsx("h2",{children:"Tabelas de Preços"}),iE.map(e=>$.jsx(rE,{children:$.jsxs("div",{children:[$.jsx("h3",{children:e.name}),$.jsxs("p",{children:["Preço: R$ ",e.price]})]})},e.id)),$.jsx(oE,{children:"ESO corporation. All rights reserved © 2024."})]})}const sE=lt.header`
+`,iE=[{id:1,name:"Corte",price:30},{id:2,name:"Barba",price:25},{id:3,name:"Cabelo + Barba",price:50},{id:4,name:"Sobrancelha",price:10},{id:5,name:"Pezinho",price:15}];function lE(){return $.jsxs(nE,{id:"preços",children:[$.jsx("h2",{children:"Tabelas de Preços"}),iE.map(e=>$.jsx(rE,{children:$.jsxs("div",{children:[$.jsx("h3",{children:e.name}),$.jsxs("p",{children:["Preço: R$ ",e.price]})]})},e.id)),$.jsx(oE,{children:"ESO Tech corporation. All rights reserved © 2024."})]})}const sE=lt.header`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
