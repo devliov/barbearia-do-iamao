@@ -14,7 +14,7 @@ export function Skills() {
         </SkillBox>
       ))}
       <FooterConteiner>
-        ESO corporation. All rights reserved © 2024.
+        ESO Tech corporation. All rights reserved © 2024.
       </FooterConteiner>
     </SkillContainer>
   );
