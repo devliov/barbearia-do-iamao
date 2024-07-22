@@ -16,7 +16,7 @@ export const ProjectContainer = styled.main`
     width: max-content;
     background: linear-gradient(
       60deg,
-      ${(props) => props.theme["gold-500"]} 0%,
+      ${(props) => props.theme["gold-300"]} 0%,
       ${(props) => props.theme["white"]} 80%
     );
     -webkit-text-fill-color: transparent;
@@ -45,7 +45,7 @@ export const ProjectItem = styled.div`
     linear-gradient(
         to right,
         ${(props) => props.theme["gray-900"]} 35%,
-        ${(props) => props.theme["gold-700"]} 100%
+        ${(props) => props.theme["gold-300"]} 100%
       )
       border-box;
 
