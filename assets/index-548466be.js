@@ -243,7 +243,7 @@ body,input,button,a{
     width: max-content;
     background: linear-gradient(
       60deg,
-      ${e=>e.theme["gold-500"]} 0%,
+      ${e=>e.theme["gold-300"]} 0%,
       ${e=>e.theme.white} 80%
     );
     -webkit-text-fill-color: transparent;
@@ -270,7 +270,7 @@ body,input,button,a{
     linear-gradient(
         to right,
         ${e=>e.theme["gray-900"]} 35%,
-        ${e=>e.theme["gold-700"]} 100%
+        ${e=>e.theme["gold-300"]} 100%
       )
       border-box;
 
@@ -410,7 +410,7 @@ body,input,button,a{
     width: max-content;
     background: linear-gradient(
       60deg,
-      ${e=>e.theme["gold-500"]} 0%,
+      ${e=>e.theme["gold-300"]} 0%,
       ${e=>e.theme.white} 80%
     );
     -webkit-text-fill-color: transparent;
@@ -438,7 +438,7 @@ body,input,button,a{
     linear-gradient(
         to right,
         ${e=>e.theme["gray-900"]} 35%,
-        ${e=>e.theme["gold-700"]} 100%
+        ${e=>e.theme["gold-300"]} 100%
       )
       border-box;
 
