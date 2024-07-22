@@ -50,10 +50,12 @@ export const HeaderContainer = styled.header`
       align-items: center;
       text-decoration: none;
       border-top: 3px solid transparent;
+      color: ${(props) => props.theme["gold-500"]};
       border-bottom: 3px solid ${(props) => props.theme["gray-300"]};
 
       span {
-        color: ${(props) => props.theme["gold-500"]};
+        color: ${(props) => props.theme["gold-300"]};
+        font-weight: 600;
       }
 
       &:hover {

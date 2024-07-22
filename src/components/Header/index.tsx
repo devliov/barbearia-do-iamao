@@ -2,7 +2,7 @@ import { CurrencyDollar, Scissors, UserCircle } from "phosphor-react";
 import { HeaderContainer } from "./styles";
 import { ReactNode } from "react";
 
-import Logo from "../../assets/Barbearia do Irmão.jpg";
+import Logo from "../../assets/logo-barbearia-do-irmão.png";
 import ScrollToTopButton from "../Button-scroll";
 
 type MenuHeader = {
